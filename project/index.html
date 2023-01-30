@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <me ta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аренда автомобилей</title>
+</head>
+<body>
+    <div class="main">
+    <div class="block">
+        <div class="logo">
+            <img class="logo" src="../project/img/avto.JPEG" alt="">
+        </div>
+        <div class="text">Аренда автомобилей</div>
+        <p class="adres">Tajikistan , Khujand <br> Street   : Ismoili Somoni 22a</p>
+        <div class="search"><input type="text" placeholder="search...."></div>
+    </div>
+    <div class="menu">
+        <ol>
+            <li>Главная</li>
+            <li><a class="menu-a" href="index_2.html" target="_blank">Каталог</a></li>
+            <li>Отзывы</li>
+            <li>Связатся с нами</li>
+            <li>О нас</li>
+        </ol>
+    </div>
+    <div class="block-img">
+        <img class="img" src="../project/img/logo3.1.jpg" alt="">
+        <div class="p"><h1>Авренда автомобилей</h1>
+        </div> 
+    </div>
+    <div class="content">
+        <div class="content-text">Новые автомобили</div>
+    </div>
+    <div class="block-karta">
+        <div class="karta">
+            <img src="../project/img/221.jpg" alt="">
+            <div class="karta-text">Mers B W-221</div>
+            <div class="karta-content">
+                <p>Цена:</p>
+                <p class="p_1">800</p>
+            </div>
+            <div class="karta-footer">
+                <P class="p_3"></P>
+                <P class="p_4">800 с</P>
+                <button class="new" onclick="push()">В избраное</button>
+                <button class="button" onclick="touch()">Забронировать</button>
+            </div>
+        </div>
+        <div class="karta">
+            <img class="img_1" src="../project/img/audu3.jpg" alt="">
+            <div class="karta-text"> Audi A3
+            </div>
+            <div class="karta-content">
+                <p>Цена:</p>
+                <p class="p_1">1500 с</p>
+            </div>
+            <div class="karta-footer">
+                <P class="p_3"></P>
+                <P class="p_4">1500 с</P>
+                <button class="new" onclick="push()">В избраное</button>
+                <button class="button" onclick="touch()">Забронировать</button>
+            </div>
+        </div>
+        <div class="karta">
+            <img class="img_1" src="../project/img/f10.jpg" alt="BMW">
+            <div class="karta-text"> BMW F-10
+            </div>
+            <div class="karta-content">
+                <p>Цена:</p>
+                <p class="p_1">1000 с</p>
+            </div>
+            <div class="karta-footer">
+                <P class="p_3"></P>
+                <P class="p_4">1000 с</P>
+                <button class="new" onclick="push()">В избраное</button>
+                <button class="button" onclick="touch()">Забронировать</button>
+            </div>
+        </div>
+        <div class="karta">
+            <img class="img_1" src="../project/img/z_b.jpg" alt="">
+            <div class="karta-text"> Zafira B
+            </div>
+            <div class="karta-content">
+                <p>Цена:</p>
+                <p class="p_1">600 с</p>
+            </div>
+            <div class="karta-footer">
+                <P class="p_3"></P>
+                <P class="p_4">600 с</P>
+                <button class="new" onclick="push()">В избраное</button>
+                <button class="button" onclick="touch()">Забронировать</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--javascript-->
+    <script>
+        function touch(){
+            var button = document.getElementsByClassName('button');
+            alert('Заявка на бронированя принято');
+        }
+
+     
+        function push(){
+            var button = document.getElementsByClassName('new');
+            alert('Добавлено в избраное');
+        }
+     </script>
+
+
+
+
+
+
+    <div class="end">
+        <div class="sale">
+            <div class="img_sale">
+                <img src="../project/img/sale.jpg" alt="sale">
+                <div class="sale-text"><p class="sale_p">Акции</p></div>
+            </div>
+        </div>
+        <div class="maps">
+            <div class="map">
+                <a href="https://goo.gl/maps/n2NhYY5WCwqSRDPm9" target="_blank"><img src="../project/img/maps.jpg" alt=""></a>
+                <div class="maps-text"><p class="maps_p">Наша место положение</p></div>
+            </div>
+        </div>
+        <div class="About_us">
+            <div class="About-us">
+                <img src="../project/img/Онас.jpg" alt="About_us">
+                <div class="About_uss"><p class="About__us_p">О нас</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1 class="h1">Вакансии:</h1>
+        <ol>
+           <a class="footer-a" href=""> <li>Менеджер</li></a>
+          <a class="footer-a" href="">  <li>Управляюший</li></a>
+           <a class="footer-a" href=""> <li>Web-разработчик</li></a>
+           <a class="footer-a" href=""> <li>Бухгалтер</li></a>
+           
+        </ol>
+        
+        <br><br><br><br>
+        <hr class="line">
+        <a href="https://www.facebook.com/" target="_blank"><img class="img-hover" src="../project/img/фейсбук.png" alt="Face book"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img class="img-hover_1" src="../project/img/инста.png" alt="instagram"></a>
+        <a href="https://www.whatsapp.com/" target="_blank"><img class="img-hover2" src="../project/img/whatsapp.png" alt="whatsapp"></a>
+        <a href="https://web.telegram.org/" target="_blank"><img class="img-hover2" src="../project/img/tellegram.png" alt="telegram"></a>
+        <p class="line-p">Tajikistan , Khujand <br>Street  : Ismoili Somoni 22a</p>
+</div>
+</div>
+</div>
+</body>
+</html>

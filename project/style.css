@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-a{
+    color: white;
+    text-decoration: none;
+}
+.img{
+    min-width: 1369px;
+}
+.block{
+    display: flex;
+    border: 1px solid black;
+    background-color: #2A2A2A;
+    height: 150px;
+    width: 1366px;
+
+
+}
+.text{
+    color: white;
+    font-size: 30px;
+    margin: 45px  0 0 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: wheat;
+}
+.adres{
+    color: white;
+    margin: 43px 0 0 30px;
+    font-size: 19px;
+    
+}
+.search{
+    margin: 15px 0 0 400px;
+}
+.search input{
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    background: #2A2A2A;
+    color: white;
+    border: 1px solid gray;
+}
+.logo{
+    margin: 20px 0 0 50px ;
+}
+
+.menu ol{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    font-size: 25px;
+    background: #2A2A2A;
+    color: white;
+    padding: 0 0 0 40px;
+    width: 1329px;
+}
+.menu li{
+    padding: 10px;
+    margin: 0 0 0 49px;
+}
+
+.menu li:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.p{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    margin: -800px 0 0 400px;
+}
+ .p2{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    margin: -700px 0 0 50px;
+ }
+ .p2 ol{
+    list-style: none;
+    font-size: 25px;
+ }
+
+ .content{
+    border: 1px solid grey;
+    width: 1100px;
+    margin: 20px 0 0 115px;
+    background: #2A2A2A;
+    color: white;
+    height: 30px;
+    font-size: 25px;
+    padding: 8px 0 5px 20px;
+    margin-top: 40px;
+ }
+ .block-karta{
+    display: flex;
+    width: 1120px;
+    margin: 15px 0 0  114px; 
+    height: 500px;
+ }  
+ .karta{
+    width: 260px;
+    height: 380px;
+    margin: 0 25px 0 0;
+    box-shadow: 6px 6px 6px 0 gray;
+    cursor: pointer;
+ }
+ .karta img{
+    max-width: 260px;
+ }
+ .karta-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+ }
+ .karta-content{
+    display: flex;
+    background: #EFEFEF;
+    font-size: 18px;
+    height: 50px;
+ }
+ .karta-content p{
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+    color: #888888;
+ }
+.p_1{
+    padding: 0 0 0 130px;
+    color: #888888;
+    font-weight: 100;
+}
+
+.karta-footer{
+    background: #F5F5F5;
+    margin: 2px 0 0 0;
+    height: 127px;
+}
+.p_3{
+    font-size: 18px;
+    color: #696969;
+    font-weight: bolder;
+    padding: 10px 0 0 10px;
+}
+.p_4{
+    font-size: 25px;
+    font-weight: bolder;
+    color: firebrick;
+    padding: 5px 0 0 180px;
+    
+}
+.button{
+    background: teal;
+    color: white;
+    border-color: teal;
+    height: 40px;
+    width: 100px;
+    margin: 15px 25px 0 0;
+    float: right;
+    box-shadow: 5px 5px 5px 0 gray;
+    cursor: pointer;
+    
+}
+.new{
+    background: teal;
+    color: white;
+    border-color: teal;
+    height: 40px;
+    width: 100px;
+    margin: 15px 0 0 15px;
+    box-shadow: 5px 5px 5px 0 gray;
+    cursor: pointer;
+}
+.img_1{
+    min-height: 173px;
+}
+
+.end{
+    width: 1120px;
+    margin: -50px 0 0 115px;
+    display: flex;
+    cursor: pointer;
+}
+
+.sale{
+    box-shadow: 6px 6px 6px 0 gray;
+    height: 299px;
+    width: 360px;
+    margin: 0 13px 0 0;
+}
+.maps{
+    box-shadow: 6px 6px 6px 0 gray;
+    height: 299px;
+    width: 360px;
+    margin: 0 auto;
+}
+.About_us{
+    box-shadow: 6px 6px 6px 0 gray;
+    height: 299px;
+    width: 360px;
+    margin: 0 0 0 13px;
+}
+.sale-text{
+    height: 45px;
+    background: #2B2B2B;
+    color: white;
+}
+.sale_p{
+    font-size: 25px;
+    padding: 7px 0 0 145px;
+}
+.maps-text{
+    height: 45px;
+    background: #2B2B2B;
+    color: white;
+}
+.maps_p{
+    font-size: 20px;
+    padding: 9px 0 0 80px;
+}
+.About_uss{
+    height: 45px;
+    background: #2B2B2B;
+    color: white; 
+}
+.About__us_p{
+    font-size: 25px;
+    padding: 7px 0 0 145px;
+}
+
+.footer{
+    border: 1px solid black;
+    margin: 70px 0 0 0;
+    width: 1350px;
+    background: #252424;
+    color: white;
+
+}
+.line{
+    width: 1200px;
+    margin: -40px 0 10px 80px;
+}
+.img-hover{
+    float: right;
+    margin: 0 67px 0 0;
+    border: none;
+    border-radius: 7px;
+}
+.img-hover_1{
+    float: right;
+    margin: 0 7px 0 0 ;
+}
+.line-p{
+    margin: -2px 0 0 80px;
+}
+.img-hover2{
+    float: right;
+    margin: 0px 5px 0 0;
+}
+.footer-a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer-a:hover{
+    text-decoration: underline gray;
+    color: royalblue;
+}
+.footer-a li{
+    margin: 20px 0 0 140px;
+    list-style: none;
+}
+.h1{
+    margin: 10px 0 0 130px;
+}
